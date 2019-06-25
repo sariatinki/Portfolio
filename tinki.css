@@ -1,0 +1,164 @@
+#home{
+    height: auto;
+    width: auto;
+}
+#headone{
+    height: 10%;
+    width: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 2.5%;
+    box-sizing: border-box;
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#navone{
+    height: 10%;
+    padding-top: 3%;
+    width: auto;
+}
+
+#navone a{
+    padding-left: 10%;
+    color: black;
+    font-weight: 500;
+}
+
+#content{
+    height: auto;
+    width: auto;
+    background-image: url("portfolio/bg7jpg.jpg");
+    background-repeat: repeat-y;
+    background-size: content;
+}
+
+#first{
+    padding-top: 20%;
+}
+
+.flip-card {
+
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  //perspective: 1000px;
+   /* margin:auto;  <!--to place the image in the center-->*/
+    
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+}
+
+.flip-card-back {
+  background-color: black;
+  transform: rotateY(180deg);
+  color: white;
+  font-family:cursive;
+  font-size: 200%;
+    padding-top: 20%;
+}
+
+
+#intro1{
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    font-size: 2vw;
+    padding-top: 10%
+}
+
+#about{
+    padding-top: 10%;
+}
+#about h3{
+    text-align: center;
+}
+#about p{
+    font-size: 1.5vw;
+}
+
+#skills{
+    padding-top: 14%;
+}
+
+#skills h2{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.skillimg{
+    height: 200px;
+    width: 200px;
+}
+
+.caption{
+    font-weight: 500;
+}
+
+#btn{
+    margin-top: 3%;
+    background-color: cornflowerblue;
+    font-size: 1.5vw;
+}
+
+#btn:hover{
+    background-color: blue;
+}
+
+#contact{
+    padding-top: 14%;
+}
+
+#contact h2{
+    text-align: center;
+}
+
+#contact label{
+    font-weight: 500;
+}
+
+.formtext{
+    width: 100%;
+    border: 1px solid black;
+}
+
+#submit{
+    background-color: cornflowerblue;
+    font-weight: 500;
+}
+
+#footer{
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+    height: 20%;
+    background-color: black;
+}
+
